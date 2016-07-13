@@ -1,0 +1,1 @@
+function d = dprime(p,exptype)% d = dprime(p) returns dprime from %warning('exptype is not implemented -- function assumes 2afc');d = 2 * erf(2*(p-0.5));

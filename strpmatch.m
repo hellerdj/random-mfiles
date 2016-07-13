@@ -1,0 +1,1 @@
+function b = strpmatch(s,cellstrarray)% function b = strpmatch(s,cellstrarray)% finds the elements of cellstrarray that contain the string fragment, s.% This is something that strmatch.m does not do.% returns a logical array %% see also strmatchb = zeros(size(cellstrarray));for i = 1:length(b(:));  b(i) = any(findstr(cellstrarray{i},s));end

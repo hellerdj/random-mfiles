@@ -1,0 +1,1 @@
+function y = extremes(x)% y = extremes(x) calculates the min and max of x.  Ignores nans.%     If x is a matrix, m by n, then, y returns the min and max for each%     column as a 2 by n matrix.% 6/11/99 mns wrote ity = [nanmin(x); nanmax(x)];

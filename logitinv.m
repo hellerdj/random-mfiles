@@ -1,0 +1,1 @@
+function p = logitinv(y)% returns the inverse of the logit of p.  If p is a probability then% logit(p) is log(p/(1-p))  (i.e., log of the odds ratio), or logit(p)% This function returns p from the logit(p)%% see also logit.m% 1/29/98 mns wrote itp = exp(y) ./ (1 + exp(y));

@@ -1,0 +1,1 @@
+function rx = srank(x)% rx = srank(x) 

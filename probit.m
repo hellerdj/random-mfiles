@@ -1,0 +1,1 @@
+function y = probit(b,x)% y = probit(b,x) 

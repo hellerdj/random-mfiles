@@ -1,0 +1,1 @@
+function p = logit2p(logit)% LOGIT2P converts logit values to probability.  Logit values from a% logistic regression is the term in the exponentq = exp(logit);p = q ./ (1+q);

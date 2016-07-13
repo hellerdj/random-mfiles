@@ -1,0 +1,1 @@
+function y = uniq(x)% y = uniq(x)% Take matrix x and return the unique rows.% M.N. Shadlen January 29, 1994sprintf('Warning: you should use munique().  It is much better')[m n] = size(x);nn = 0;z = ones(m,1);for i = 2:m  for j = 1:i-1	if x(j,:)==x(i,:)	  	z(i) = 0;		break;	end  endendy = x(z,:);

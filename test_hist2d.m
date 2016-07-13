@@ -1,0 +1,1 @@
+x = 1:10;y = 1:15;z = rand(10,15,100)<.1;xy = rand(100,2);help hist2d[h,vx,vy] = hist2d(xy(:,1),xy(:,2));size(h)size(vx)size(vy)addpath /home/mike/mat/mexwhich hist2d

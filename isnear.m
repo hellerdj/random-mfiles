@@ -1,0 +1,1 @@
+function L = isnear(x,v,eps)% L = isnear(x,v,eps) returns logical 1 or 0 if the values in x are close to% the values in v, where by close we mean less than eps away.% 7/7/99 mns wrote itV = v(:);L = zeros(size(x));for i =1:length(V)  L = L | abs(x-V(i))<eps;end

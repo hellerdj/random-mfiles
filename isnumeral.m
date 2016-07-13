@@ -1,0 +1,1 @@
+function b = isnumeral(s)% isnumeral returns the positions in string S that contain numerals 0-9% This works like isletterb = ismember(s,['0123456789']);

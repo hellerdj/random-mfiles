@@ -1,0 +1,1 @@
+function y = halfrect(x)%	HALFRECT halfwave rectification (M.N. Shadlen)%		y = HALFRECT(x) returns a matrix the same dimensions%		as x with all the negative vals replaced by 0.%y = zeros(size(x));y(:) = (x > 0) .* x;

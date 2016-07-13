@@ -1,0 +1,1 @@
+ function s=dec2bin(d,n) % Author: Hans Olsson from Lund, Sweden if (nargin<2) n=1; end; % Need at least one digit even for 0. [f,e]=log2(max(d));     % How many digits do we need to represent the numbers? s=setstr(rem(floor(d(:)*pow2(1-max(n,e):0)),2)+'0');rem(floor(d(:)*pow2(1-max(n,e):0)),2)

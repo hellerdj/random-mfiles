@@ -1,0 +1,1 @@
+function axprefs(ax)% fix up axes the way I like themset(ax,'TickDir','out','FontSize',14,'Box','off');

@@ -1,0 +1,1 @@
+% RANDP	returns random poisson deviates.  It is called with 3 arguments%	randp(mean, nrows, ncols)  returns a matrix nrows by ncols%	containing poisson deviates with expectation mean.  The routine is a%	mex file that calls Numerical Recipes routine poidev.c%	Source code is in ~mike/mat/mex/randp.c%	(MNS 5/7/94)

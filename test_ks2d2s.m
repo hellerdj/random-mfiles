@@ -1,0 +1,1 @@
+% testing routine for 2-d KS testclear probks ks2d2sn1 = 20n2 = 25% 1st distribution of ordered pairsxa = normrnd(0,1,n1,1);ya = normrnd(0,1,n1,1);% 2nd distribution of ordered pairsxb = normrnd(1,1,n2,1);yb = normrnd(1,1,n2,1);figure(2)hold off, plot(xa,ya,'r+',xb,yb,'b^'), hold on[p d r1 r2] = ks2d2s([xa ya],[xb yb]); [p d]

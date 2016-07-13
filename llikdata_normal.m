@@ -1,0 +1,1 @@
+function err = llikdata_normal(q)% err = llikdata_normal(q)%	The value of err is the -log likelihood of obtaining Data%	given the parameters in vector Q, which are mean and sdev.   Data is%	a global vector of values.%	Uses calls to stats package.%% M Shadlen 9/94global Data Plothandlellik = sum(log(normpdf(Data,q(1),q(2))));err = -llik;

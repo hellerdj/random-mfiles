@@ -1,0 +1,1 @@
+function y = deg2rad(d)y = d * pi/180;

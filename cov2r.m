@@ -1,0 +1,1 @@
+function r = cov2r(C)% COV2R converts a covariance matrix to a correlation matrix% Usage: r = cov2r(C)% r = zeros(size(C));for i = 1:size(C,1)  for j = 1:size(C,2)    r(i,j) = C(i,j) / sqrt(C(i,i) * C(j,j));  endend

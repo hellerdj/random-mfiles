@@ -1,0 +1,1 @@
+function r = multr(C,i,J)% MULTR calculates the multiple correlation between the ith element of a% 	covariance matrix, C, and the indices listed in vector J.%	Usage: R = multr(C,i,J)%	(M N Shadlen, 6/93)S2 = C(:,J);S2 = S2(J,:);s1 = C(i,J);	% row of the covariance matrix, just the elements in the J columnsr = sqrt((s1 * inv(S2) * s1')/C(i,i));

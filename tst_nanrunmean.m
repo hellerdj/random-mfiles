@@ -1,0 +1,1 @@
+% tst_nanrunmean.mclear nanrunmean nanrunmeanV% test for vectorz = [2 0 1 0 nan 1 0 0 1 3]nanrunmean(z,2)nanrunmean(z',2)nanrunmean([z' z'+randn(size(z'))],3)

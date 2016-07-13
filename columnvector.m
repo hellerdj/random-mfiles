@@ -1,0 +1,1 @@
+function y = columnvector(x)% function y = columnvector(x)% makes vector x into a column vectorif isvector(x)  % n = prod(size(x));  y = x(:);end

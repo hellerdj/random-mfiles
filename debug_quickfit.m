@@ -1,0 +1,1 @@
+coh  = [.01 .02 .04 .08 .16 .32 .64 .99]'p = [.63 .75 .92 .995 1 1 1 1]'p = [.5 .5 .55 .54 .6 .58 .6 .71]'n = 200 * ones(size(coh))data = [coh p n][a b] = quickfit(data)clear quickfit

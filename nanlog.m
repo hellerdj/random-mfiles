@@ -1,0 +1,1 @@
+function [y,n] = nanlog(x)% y = nanlog(x) calls the log function but does a check first and% replaces all values of x which are not on x>0 with nan.% [y,n] = nanlog(x)  also returns the number of values in x that are <=0%                    or not finite.% 6/10/99 mns wrote itL = ~finite(x) | x<=0;if any(L)  x(L) = nan;endy = log(x);n = sum(L);

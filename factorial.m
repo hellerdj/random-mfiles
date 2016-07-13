@@ -1,0 +1,1 @@
+function y=factorial(x)% y = factorial(x) computes the factorial of x, or its interpolated value,% gamma(x+1).  factorial(0) = 1. Right?% 10/1/97 mns wrote it% 2/2/99  factorial(0) is 1 not zeroif x>0	y=gamma(x+1);else	y=1;end

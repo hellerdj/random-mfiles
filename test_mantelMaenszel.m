@@ -1,0 +1,1 @@
+% test_mantelHaenszel.m% THis is the cancer data on p.405 of Rosnerx = zeros(2,2,2);x(:,:,1) = [120 111;80 155];x(:,:,2) = [161 117;130 124]clear mantelHaenszel[pMH,pHOM, chi2MH, chi2HOM,odds,oddsMH] = mantelHaenszel(x)chi2HOM

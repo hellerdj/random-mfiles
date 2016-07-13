@@ -1,0 +1,1 @@
+function R = rotationMatrix(th)% function R = rotationMatrix(theta)%  returns the 2 by 2 rotation matrix, R.  Theta is in radians.%  if u is a column vetor, then v=R*u will return a new vector, v, that has%  been rotated by theta.R = [cos(th) -sin(th); sin(th) cos(th)];

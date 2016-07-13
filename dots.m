@@ -1,0 +1,1 @@
+% function dots(c,n,dx)% dots(h,c,n,dx)%   crude random dots.  User supplies handle to axis, h, coherence, c (0-1), number%   of dots, n, and delta x, dx.h = plot(0,0,'.');set(h,'erasemode','none');x1 = rand(1,n);y1 = rand(1,n);

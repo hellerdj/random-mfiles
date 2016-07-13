@@ -1,0 +1,1 @@
+function p = bivarnormpdf(x,y,sx,sy,r)% BIVARNORMPDF bivariate normal probability density function%   takes vectors x and y, as ordered pairs
